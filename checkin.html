@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Check-in Emocional – PSOMA</title>
+  <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+  <header class="mini-hero">
+    <nav class="nav">
+      <a href="index.html" class="logo">PSOMA</a>
+      <ul class="menu">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="modules.html">Módulos</a></li>
+        <li><a href="features.html">Funcionalidades</a></li>
+        <li><a href="sarcastic.html">Modo Sarcástico</a></li>
+        <li><a href="about.html">Nosotros</a></li>
+        <li><a href="privacy.html">Privacidad</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="mini-hero-content">
+      <h1>Check-in Emocional</h1>
+      <p>Comparte tu estado diario, opcional y anónimo.</p>
+    </div>
+  </header>
+  <main class="section checkin-detail">
+    <form id="checkin-form" class="checkin-form">
+      <label for="mood-select">¿Cómo te sientes hoy?</label>
+      <select id="mood-select" name="mood" required>
+        <option value="flujo">Flujo</option>
+        <option value="ligero">Curro Ligero</option>
+        <option value="vegetal">Vegetal</option>
+        <option value="no_me_hables">No Me Hables</option>
+      </select>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <div id="checkin-response" class="response"></div>
+  </main>
+  <footer class="footer">
+    <p>2025 PSOMA. Todos los derechos reservados.</p>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

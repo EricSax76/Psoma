@@ -1,0 +1,36 @@
+/* Reset y básicos */
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:sans-serif; color:#333; line-height:1.5; }
+a { text-decoration:none; color:inherit; }
+ul { list-style:none; }
+
+/* Navegación */
+.nav { display:flex; justify-content:space-between; align-items:center; padding:1rem; background:#fafafa; }
+.logo { font-weight:bold; font-size:1.2rem; }
+.menu { display:flex; gap:1rem; }
+.menu a.active { font-weight:bold; border-block-end:2px solid #7158e2; }
+
+/* Hero */
+.hero { background:#7158e2; color:#fff; padding:4rem 1rem; text-align:center; }
+.hero-content h1 { font-size:3rem; margin-block-end:1rem; }
+.btn { background:#ff9ff3; color:#333; padding:0.75rem 1.5rem; border:none; border-radius:4px; cursor:pointer; }
+
+/* Secciones */
+.section { padding:2rem 1rem; }
+.callouts { display:flex; gap:1rem; justify-content:center; }
+.callout { flex:1; text-align:center; }
+.cards { display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; }
+.card { flex:1 1 200px; padding:1rem; border:1px solid #eee; border-radius:4px; }
+
+/* Mini Hero */
+.mini-hero { background:#e0d8ff; padding:2rem 1rem; text-align:center; }
+.mini-hero-content h1 { font-size:2rem; }
+
+/* Formatos */
+.checkin-form, .contact-form { max-inline-size:350px; margin:1rem auto; display:flex; flex-direction:column; gap:0.75rem; }
+.response { text-align:center; margin-block-start:1rem; font-style:italic; }
+
+/* Footer */
+.footer { padding:1rem; text-align:center; background:#fafafa; margin-block-start:2rem; }
+ 
+.footer { padding:1rem; text-align:center; font-size:0.9rem; background:#fafafa; margin-block-start:2rem; }
